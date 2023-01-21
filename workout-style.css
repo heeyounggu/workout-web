@@ -1,0 +1,52 @@
+
+a{
+    color:rgb(231, 90, 113);
+    text-decoration: none;
+}
+h1{
+    color:pink;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid pink;
+    padding: 20px;
+    margin: 0;
+}
+#main{
+    float: right;
+    text-align:center;
+    font-size: 12px;
+    border: 1px solid pink;
+}
+#main ol{
+    padding: 2px;
+    margin: 2px;
+}
+#welcome{
+    text-align:center;
+    border-bottom: 1px solid pink;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 500px;
+    color: rgb(231, 90, 113);
+    border-right: 1px solid pink;
+    width: 150px;
+}
+#grid ol{
+    margin: 10px;
+    padding-left: 20px;
+
+}
+@media(max-width:500px){
+    #grid{
+        display: block;
+        border-right: none;
+}
+h1{
+    border-bottom:none;
+}
+#welcome{
+    border-bottom:none;
+}
+
+}
